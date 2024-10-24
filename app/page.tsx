@@ -7,13 +7,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 export default function Home() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 3000,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
 
   const images = [
     "/images/lam.jpg",
